@@ -1,0 +1,546 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-left: 4rem;
+}
+
+.link-container {
+  display: flex;
+  height: 0vh;
+  transition-duration: 0.5s;
+}
+
+.mblink-container {
+  display: none;
+  color: white;
+  height: 100vh;
+  width: 12rem;
+  background-color: #04143F;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  padding-top: 2rem;
+  box-shadow: 2px 2px 5px 2px #031033;
+  z-index: 2;
+}
+
+.mblink-container.animate {
+  animation: animates 0.4s ease-in-out;
+  display: block;
+}
+
+.mblink-container.re-animate {
+  animation: reanimates 0.4s ease-in-out;
+  display: none;
+}
+
+@keyframes animates {
+  from {
+    left: -500px;
+    display: none;
+  }
+
+  to {
+    left: 0px;
+    display: block;
+  }
+}
+
+@keyframes reanimates {
+  from {
+    display: block;
+    left: 0px;
+  }
+
+  to {
+    display: none;
+    left: -500px;
+  }
+}
+
+.mblink-container .nav-link {
+  opacity: 1;
+  pointer-events: all;
+  text-align: center;
+}
+
+.nav-tag {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  justify-content: center;
+  background-color: #04143F;
+  position: sticky;
+  top: 0;
+}
+
+.mobile-menu {
+  width: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  width: 73%;
+  justify-content: center;
+}
+
+li a {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.index-link {
+  flex: 1;
+}
+
+.intro-container {
+  width: 100%;
+  background-color: #04143F;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-container {
+  width: 71%;
+  height: 648px;
+  margin: auto;
+  display: flex;
+}
+
+.first-card {
+  width: 50%;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.second-card {
+  width: 50%;
+  text-align: right;
+  padding-top: 5%;
+}
+
+.second-card .card-text {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card-text {
+  color: white;
+  font-size: 64px;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+}
+
+.intro {
+  color: #D9D9D9;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+}
+
+.find-contact {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  margin-top: 10%;
+}
+
+.contact-container {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.contact {
+  margin-right: 4%;
+}
+
+.iconn {
+  width: 5%;
+}
+
+.iconn.php {
+  width: 7%;
+}
+
+.tech-container {
+  display: flex;
+  gap: 6%;
+  justify-content: start;
+  align-items: center;
+  margin-top: 13%;
+}
+
+.techs {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 18.75rem;
+}
+
+#About {
+  width: 71%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 7%;
+  gap: 2%;
+}
+
+.about-pic {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.first-card.about {
+  text-align: center;
+  width: 30%;
+}
+
+.second-card.about {
+  text-align: left;
+  width: 730px;
+}
+
+.second-card.about .card-title {
+  font-family: 'Inter', sans-serif;
+  color: #47658C;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin-bottom: 2%;
+}
+
+.second-card.about .about-locate {
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  font-size: 1.57rem;
+  width: 70%;
+  margin-bottom: 3%;
+  color: black;
+}
+
+.second-card.about p {
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #7E7E7E;
+}
+
+#Projects {
+  width: 71%;
+  margin: auto;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  color: #47658C;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin-bottom: 2%;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.first-card.project {
+  padding: 0.9%;
+  padding-top: 0;
+  width: 60%;
+}
+
+.second-card.project {
+  padding-top: 0;
+  width: 40%;
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.second-card.project .project-title {
+  color: black;
+  font-size: 1.57rem;
+  font-weight: bolder;
+  height: 10%;
+}
+
+.second-card.project p {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #7E7E7E;
+}
+
+.project-pic {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.project-info {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  height: 55%;
+}
+
+.project-language {
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  justify-content: center;
+}
+
+.second-card.project .project-language p {
+  color: black;
+  font-size: 16px;
+}
+
+.project-links {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.github {
+  width: 50%;
+  height: 100%;
+  background-color: #47658C;
+  border: 2px solid #47658C;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.github img.iconn {
+  width: 22px;
+  margin-left: 3%;
+}
+
+.link {
+  width: 50%;
+  height: 100%;
+  border: 2px solid #47658C;
+  border-radius: 5px;
+  background-color: white;
+  color: #47658C;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.link img.iconn {
+  width: 20px;
+  margin-left: 3%;
+}
+
+.back-top {
+  width: 50px;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  position: fixed;
+  border-radius: 50%;
+  border: 2px solid gainsboro;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.resume-title .card-title {
+  width: 71%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.resume-container {
+  width: 71%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #D9D9D9;
+  padding: 1%;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 1%;
+}
+
+.first-card.resume {
+  padding-top: 0;
+  width: 656px;
+}
+
+.second-card.resume {
+  padding-top: 0;
+  width: 656px;
+  text-align: left;
+}
+
+.resume-pic {
+  width: 27.3%;
+}
+
+.info-container {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 5%;
+}
+
+.infos {
+  width: 100%;
+}
+
+.ress {
+  display: flex;
+  align-items: center;
+  line-height: 150%;
+  gap: 2%;
+}
+
+.res-name {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.res-icon {
+  width: 20px;
+}
+
+.res-main {
+  padding-left: 3%;
+}
+
+.personal-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-indent: 20px;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.download-container {
+  width: 71%;
+  margin: auto;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: end;
+}
+
+.download {
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+  background-color: #47658C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.download img.iconn {
+  width: 20px;
+  margin-left: 3%;
+}
+
+footer {
+  padding: 2%;
+  padding-right: 14.2%;
+  padding-left: 14.2%;
+  background-color: #04143F;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.footer-title {
+  margin-bottom: 0.50%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px;
+}
+
+.first-section .footer-text {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  padding: 5px;
+}
+
+.second-section .footer-text {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  padding: 5px;
+}
+
+svg.res-icon {
+  width: 25px;
+}

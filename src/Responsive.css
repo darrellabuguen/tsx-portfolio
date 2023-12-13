@@ -1,0 +1,391 @@
+@media screen and (max-width: 1485px) {
+    #About p {
+        font-size: 18px;
+    }
+
+    .first-card.about {
+        width: 80%;
+    }
+
+    .project-info {
+        font-size: 14px;
+    }
+
+    .second-card.project .project-title {
+        font-size: 20px;
+    }
+
+    .project-language {
+        width: 70%;
+    }
+
+    .github {
+        font-size: 16px;
+    }
+
+    .github img.iconn {
+        width: 16px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .link img.iconn {
+        width: 16px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .card-text {
+        font-size: 45px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .profile {
+        width: 70%;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    .card-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-card.firstro {
+        width: 80%;
+        text-align: center;
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-card.secondro {
+        width: 80%;
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .find-contact {
+        margin-top: 3%;
+    }
+
+    .contact-container {
+        margin-top: 1%;
+    }
+
+    .tech-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .profile {
+        width: 65%;
+    }
+
+    #About {
+        flex-direction: column;
+    }
+
+    .first-card.about {
+        width: 100%;
+    }
+
+    .about-pic {
+        width: 100%;
+    }
+
+    .second-card.about {
+        width: 100%;
+    }
+
+    .project-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .project-container.rev {
+        flex-direction: column-reverse;
+    }
+
+    .project-language {
+        padding: 15px;
+    }
+
+    .first-card.project {
+        width: 100%;
+    }
+
+    .second-card.project {
+        width: 100%;
+        text-align: left;
+    }
+
+    .resume-title .card-title {
+        width: 80%;
+    }
+
+    .resume-container {
+        width: 80%;
+    }
+
+    .download-container {
+        width: 80%;
+    }
+
+    .download {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .second-card {
+        width: 70%;
+    }
+
+    .card-text {
+        font-size: 32px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .nav-tag {
+        padding: 0;
+        height: 60px;
+    }
+
+    ul {
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+    }
+
+    li.index-link {
+        text-align: left;
+        padding: 15px;
+    }
+
+    .link-container {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        opacity: 0;
+        padding: 15px;
+        margin-left: 0;
+        pointer-events: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    #About .second-card .about-locate {
+        font-size: 16px;
+    }
+
+    #About .second-card .about-me {
+        font-size: 16px;
+    }
+
+    .first-card.about {
+        width: 100%;
+    }
+
+    .second-card.about .about-locate {
+        width: 100%;
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .github {
+        margin-bottom: 5px;
+        width: 80%;
+    }
+
+    .link {
+        width: 80%;
+    }
+
+    .resume-container {
+        width: 80%;
+    }
+
+    .second-card.resume {
+        padding: 2%;
+    }
+
+    footer {
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    * {
+        text-indent: 0;
+    }
+
+    .resume-title .card-title {
+        width: 90%;
+    }
+
+    .resume-container {
+        width: 100%;
+    }
+
+    .resume-pic {
+        border-radius: 50%;
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infos {
+        width: 95%;
+    }
+
+    .download-container {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+    .first-section {
+        width: 90%;
+    }
+
+    .second-section {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+
+    .first-card.firstro {
+        width: 100%;
+    }
+
+    .iconn {
+        width: 15px;
+    }
+
+    .techs {
+        font-size: 12px;
+    }
+
+    #About {
+        width: 90%;
+    }
+
+    #Projects {
+        width: 90%;
+    }
+
+    .project-info {
+        padding: 0;
+    }
+
+    .second-card.project .project-language p {
+        font-size: 12px;
+    }
+
+    .github {
+        width: 100%;
+    }
+
+    .link {
+        width: 100%;
+    }
+
+    .resume-container {
+        font-size: 12px;
+    }
+
+    .res-icon {
+        width: 15px;
+    }
+
+    .download-container {
+        width: 90%;
+    }
+
+    .download {
+        width: 100%;
+    }
+
+    footer {
+        padding: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .first-section .footer-text {
+        font-size: 12px;
+    }
+
+    .second-section .footer-text {
+        font-size: 12px;
+    }
+
+    svg.res-icon {
+        width: 16px;
+    }
+
+    .card-container {
+        width: 90%;
+    }
+
+    .intro-container {
+        height: 91vh;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .techs {
+        font-size: 8px;
+    }
+
+    .res-name {
+        font-size: 20px;
+    }
+
+    .resume-container {
+        font-size: 10px;
+    }
+
+    .first-section .footer-text {
+        font-size: 8px;
+    }
+
+    .second-section .footer-text {
+        font-size: 8px;
+    }
+}
