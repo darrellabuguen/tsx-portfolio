@@ -88,7 +88,35 @@ const Pages = () => {
                 </div>
                 <div className="project-container rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Store Inventory</p>
+                        <p className="project-title">Recipe Realm</p>
+                        <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                        <div className="project-language">
+                            <p>React</p>
+                            <p>CSS</p>
+                        </div>
+                        <div className="project-links">
+                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
+                                window.open("https://github.com/darrellabuguen/food-recipe.git");
+                            }} />
+                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
+                                window.open("https://recipe-realm.netlify.app/");
+                            }} />
+                        </div>
+                    </Content>
+                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
+                        <img className="project-pic" src="./src/images/reciperealm-home.png" alt="img" />
+                    </Content>
+                </div>
+                <div className="project-container">
+                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
+                        <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
+                    </Content>
+                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
+                        <p className="project-title">Inventory System</p>
                         <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -99,36 +127,6 @@ const Pages = () => {
                             <p>CSS</p>
                             <p>JavaScript</p>
                             <p>Firebase</p>
-                        </div>
-                        <div className="project-links">
-                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
-                                window.open("#")
-                            }} />
-                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
-                                window.open("#")
-                            }} />
-                        </div>
-                    </Content>
-                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
-                    </Content>
-                </div>
-                <div className="project-container">
-                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" />
-                    </Content>
-                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Rest Hotel</p>
-                        <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-                        <div className="project-language">
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <p>PHP</p>
                         </div>
                         <div className="project-links">
                             <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
