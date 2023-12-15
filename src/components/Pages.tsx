@@ -65,10 +65,11 @@ const Pages = () => {
                     </Content>
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
                         <p className="project-title">Rest Hotel</p>
-                        <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
+                        <p className="project-info">
+                            Rest Hotel serves as an online booking platform that facilitates
+                            users in selecting and reserving accommodations suitable for both leisure and business purposes.
+                            Our website provides a seamless experience for room selection and efficient booking processes,
+                            including robust verification procedures to confirm reservations.
                         </p>
                         <div className="project-language">
                             <p>HTML</p>
@@ -89,10 +90,10 @@ const Pages = () => {
                 <div className="project-container rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
                         <p className="project-title">Recipe Realm</p>
-                        <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
+                        <p className="project-info">
+                            Recipe realm is a simple recipe app that allows users to search for recipes,
+                            users can choose recipe information from six different categories. This app
+                            provides an interface for searching a variety of foods from over 5000+ recipes.
                         </p>
                         <div className="project-language">
                             <p>React</p>
@@ -117,10 +118,8 @@ const Pages = () => {
                     </Content>
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
                         <p className="project-title">Inventory System</p>
-                        <p className="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
+                        <p className="project-info">
+                            Website is undergoing redevelopment.
                         </p>
                         <div className="project-language">
                             <p>HTML</p>
