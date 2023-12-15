@@ -69,7 +69,7 @@ const Pages = () => {
                             Rest Hotel serves as an online booking platform that facilitates
                             users in selecting and reserving accommodations suitable for both leisure and business purposes.
                             Our website provides a seamless experience for room selection and efficient booking processes,
-                            including robust verification procedures to confirm reservations.
+                            including verification procedures to confirm reservations.
                         </p>
                         <div className="project-language">
                             <p>HTML</p>

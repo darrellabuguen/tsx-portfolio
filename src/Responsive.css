@@ -1,3 +1,15 @@
+@media (min-width: 100px) {
+    .project-info {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1485px) {
+    .project-info {
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 1485px) {
     #About p {
         font-size: 18px;
@@ -8,7 +20,7 @@
     }
 
     .project-info {
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .second-card.project .project-title {
@@ -33,6 +45,12 @@
 
     .link img.iconn {
         width: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .project-info {
+        font-size: 14px;
     }
 }
 
