@@ -227,9 +227,9 @@ const Pages = () => {
                     <h3>Objective</h3>
                     <div className="indent" style={{ width: "95%" }}>
                         <p style={{ textAlign: "justify" }}>
-                            To work in a company that has a good environment and good people where
-                            I can share and use my knowledge. I also aim to be part of a company where I
-                            can offer my skills in Web Development to provide good websites to users.
+                            To land a software development or tech support job where I can leverage my
+                            web development and troubleshooting skills to contribute effectively, drawing
+                            upon my technical skills, and drive success in a dynamic work environment.
                         </p>
                     </div>
                     <br />
