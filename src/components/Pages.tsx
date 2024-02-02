@@ -129,10 +129,10 @@ const Pages = () => {
                         </div>
                         <div className="project-links">
                             <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
-                                window.open("https://github.com/darrellabuguen/resthotel.git")
+                                window.open("https://github.com/darrellabuguen/inventory-system.git");
                             }} />
                             <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
-                                window.open("https://resthotel.000webhostapp.com/");
+                                window.open("https://inventory-c9ef8.web.app/");
                             }} />
                         </div>
                     </Content>
