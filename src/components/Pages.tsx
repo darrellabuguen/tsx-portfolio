@@ -283,7 +283,7 @@ const Pages = () => {
             </div>
             <div className="download-container">
                 <Button name="Download" btnclass="download" icon="./src/images/download-solid.svg" onclick={() => {
-                    window.open("https://drive.google.com/file/d/1M4m9Z7Neg57RY8_J85PTBGQnVccR60xU/view?usp=sharing");
+                    window.open("https://drive.google.com/file/d/1sUblcrVylfrGbbNQvQy4libfkFYhm1vl/view?usp=sharing");
                 }} />
             </div>
         </>
