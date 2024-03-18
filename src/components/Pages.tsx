@@ -117,9 +117,11 @@ const Pages = () => {
                         <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
                     </Content>
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Inventory System</p>
+                        <p className="project-title">ExTracker</p>
                         <p className="project-info">
-                            Website is undergoing redevelopment.
+                            ExTracker is a web application that allows users to keep track of their
+                            product's availability. The web application has different features such as adding,
+                            editing, deleting, and searching products/item.
                         </p>
                         <div className="project-language">
                             <p>HTML</p>
