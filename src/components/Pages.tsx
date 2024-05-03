@@ -243,15 +243,12 @@ const Pages = () => {
                         <p>PHP</p>
                         <p>SQL</p>
                         <p>Git/Github</p>
-                        <p>Wordpress</p>
                         <p>Firebase JS (auth, database)</p>
                         <p>Computer Troubleshooting</p>
                         <p>Microsoft Office Applications (Office, Excel, Power Point, Publisher)</p>
                         <p>Installation of Windows OS</p>
                         <p>Basic Networking</p>
-                        <p>Adobe Applications (Photoshop, illustrator, and Adobe Express)</p>
-                        <p>Basic Video Editing (Sony Vegas)</p>
-                        <p>Figma</p>
+                        <p>Tailwind</p>
                     </div>
                     <br />
                     <h3>Pre-Work Experience</h3>
