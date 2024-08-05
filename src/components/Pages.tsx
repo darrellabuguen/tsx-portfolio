@@ -198,29 +198,16 @@ const Pages = () => {
                             <p>2014</p>
                         </div>
                         <br />
-                        <h3>Achievement/Accomplishment</h3>
+                        <h3>Pre-Work Experience</h3>
                         <div className="indent">
-                            <p className="bold">Digitalization of inputting Records in Research and Development Office</p>
-                            <p>
-                                Laguna State Polytechnic University
-                            </p>
+                            <p className="bold">Cybersecurity Threat Engineer</p>
+                            <p>Trend Micro, Inc. (Jan. 16 - June 2, 2023)</p>
+                            <p>8/F Tower 2, The Rockwell Business Center, 1600 Ortigas Ave,</p>
+                            <p>Pasig, Metro Manila</p>
+                            <p className="bold">OJT IT Support/Front-End Developer</p>
+                            <p>Laguna State Polytechnic University, R&D Office</p>
+                            <p>San Pablo City, Laguna</p>
                             <p>2022</p>
-                            <p className="bold">1st Runner Up of LSPU Battle of the Bands 2018</p>
-                            <p>
-                                Laguna State Polytechnic University
-                            </p>
-                            <p>2018</p>
-                            <p className="bold">Best in Thesis</p>
-                            <p>
-                                Impact of Blocking Pornographic Sites Among
-                                Selected Internet
-                            </p>
-                            <p>
-                                Cafe at
-                                Poblacion I, II, III, and
-                                IV of Tiaong, Quezon
-                            </p>
-                            <p>2018</p>
                         </div>
                         <br />
                     </div>
@@ -239,7 +226,7 @@ const Pages = () => {
                     <div className="indent">
                         <p>HTML</p>
                         <p>CSS</p>
-                        <p>JavaScript</p>
+                        <p>JavaScript & React JS</p>
                         <p>PHP</p>
                         <p>SQL</p>
                         <p>Git/Github</p>
@@ -249,18 +236,6 @@ const Pages = () => {
                         <p>Installation of Windows OS</p>
                         <p>Basic Networking</p>
                         <p>Tailwind</p>
-                    </div>
-                    <br />
-                    <h3>Pre-Work Experience</h3>
-                    <div className="indent">
-                        <p className="bold">Cybersecurity Threat Engineer</p>
-                        <p>Trend Micro, Inc. (Jan. 16 - June 2, 2023)</p>
-                        <p>8/F Tower 2, The Rockwell Business Center, 1600 Ortigas Ave,</p>
-                        <p>Pasig, Metro Manila</p>
-                        <p className="bold">OJT IT Support/Front-End Developer</p>
-                        <p>Laguna State Polytechnic University, R&D Office</p>
-                        <p>San Pablo City, Laguna</p>
-                        <p>2022</p>
                     </div>
                     <br />
                     <h3>Character References</h3>
@@ -282,7 +257,7 @@ const Pages = () => {
             </div>
             <div className="download-container">
                 <Button name="Download" btnclass="download" icon="./src/images/download-solid.svg" onclick={() => {
-                    window.open("https://drive.google.com/file/d/1knKH_Vc7riT9o-yuURWi30kZuD5wsPgU/view?usp=sharing");
+                    window.open("https://drive.google.com/file/d/13xVYzK_7u4Geu4xdqCYjQBD3FhY2lGCI/view?usp=sharing");
                 }} />
             </div>
         </>
