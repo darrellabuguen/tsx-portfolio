@@ -75,6 +75,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        padding-left: 0;
     }
 
     .first-card.firstro {
@@ -308,10 +309,11 @@
 
     .first-card.firstro {
         width: 100%;
+        margin-top: 3rem;
     }
 
     .iconn {
-        width: 15px;
+        width: 1.9rem;
     }
 
     .techs {
