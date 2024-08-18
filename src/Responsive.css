@@ -163,20 +163,19 @@
     .download {
         width: 40%;
     }
-}
 
-@media screen and (max-width: 768px) {
-
-    .second-card {
-        width: 70%;
+    .mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 15px;
     }
 
-    .card-text {
-        font-size: 32px;
-    }
-
-    .intro {
-        font-size: 16px;
+    .nav-link {
+        opacity: 0;
+        padding: 15px;
+        margin-left: 0;
+        pointer-events: none;
     }
 
     .nav-tag {
@@ -194,23 +193,24 @@
         text-align: left;
         padding: 15px;
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .second-card {
+        width: 70%;
+    }
+
+    .card-text {
+        font-size: 32px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
 
     .link-container {
         flex-direction: column;
-    }
-
-    .nav-link {
-        opacity: 0;
-        padding: 15px;
-        margin-left: 0;
-        pointer-events: none;
-    }
-
-    .mobile-menu {
-        display: flex;
-        position: absolute;
-        top: 15px;
-        right: 15px;
     }
 
     #About .second-card .about-locate {
@@ -381,7 +381,7 @@
     }
 
     .intro-container {
-        height: 91vh;
+        height: 91svh;
     }
 }
 

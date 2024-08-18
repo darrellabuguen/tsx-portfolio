@@ -11,7 +11,7 @@ const Navigation = ({ page, page_class }: Props) => {
     useEffect(() => {
         window.addEventListener("resize", () => {
             var inwidth = window.innerWidth;
-            if (inwidth > 768) {
+            if (inwidth > 1024) {
                 setAnimationState(false);
                 document.querySelector(".mblink-container")?.classList.add("re-animate");
                 document.querySelector(".mblink-container")?.classList.remove("animate");

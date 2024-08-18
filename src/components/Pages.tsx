@@ -36,7 +36,9 @@ const Pages = () => {
                     </Content>
                     <Content clsname="second-card sectro" background="bg-dark" sub="-subtle">
                         <div className="card-text" id="Second Page">
-                            <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" />
+                            <div className="profile-bg">
+                                <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" />
+                            </div>
                         </div>
                     </Content>
                 </div>
@@ -137,6 +139,30 @@ const Pages = () => {
                                 window.open("https://inventory-c9ef8.web.app/");
                             }} />
                         </div>
+                    </Content>
+                </div>
+                <div className="project-container rev">
+                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
+                        <p className="project-title">Movie Repo</p>
+                        <p className="project-info">
+                            Movie Repo is a website where people can read informations about movies.
+                            The website provide information about upcoming, trending, popular movies, etc.
+                        </p>
+                        <div className="project-language">
+                            <p>React</p>
+                            <p>Tailwind CSS</p>
+                        </div>
+                        <div className="project-links">
+                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
+                                window.open("https://github.com/darrellabuguen/movie-repo");
+                            }} />
+                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
+                                window.open("https://movie-repo-tmdb.netlify.app/");
+                            }} />
+                        </div>
+                    </Content>
+                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
+                        <img className="project-pic" src="./src/images/movierepo-home.jpg" alt="img" />
                     </Content>
                 </div>
                 <span className="back-top" onClick={() => window.scrollTo(0, 0)}>&uarr;</span>
