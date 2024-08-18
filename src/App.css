@@ -210,16 +210,6 @@ li a {
   animation: move 3s linear infinite;
 }
 
-.profile-bg {
-  background-color: #47658C;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 45%;
-  border-bottom-left-radius: 44%;
-  border-bottom-right-radius: 48%;
-  padding-top: .5rem;
-  animation: moves 3s linear infinite;
-}
-
 @keyframes move {
   0% {
     border-top-right-radius: 45%;
@@ -247,36 +237,6 @@ li a {
     border-top-left-radius: 40%;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 43%;
-  }
-}
-
-@keyframes moves {
-  0% {
-    border-top-right-radius: 50%;
-    border-top-left-radius: 45%;
-    border-bottom-left-radius: 44%;
-    border-bottom-right-radius: 48%;
-  }
-
-  50% {
-    border-top-right-radius: 60%;
-    border-top-left-radius: 55%;
-    border-bottom-left-radius: 45%;
-    border-bottom-right-radius: 58%;
-  }
-
-  75% {
-    border-top-right-radius: 50%;
-    border-top-left-radius: 45%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 48%;
-  }
-
-  100% {
-    border-top-right-radius: 50%;
-    border-top-left-radius: 45%;
-    border-bottom-left-radius: 44%;
-    border-bottom-right-radius: 48%;
   }
 }
 

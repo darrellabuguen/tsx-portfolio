@@ -36,9 +36,7 @@ const Pages = () => {
                     </Content>
                     <Content clsname="second-card sectro" background="bg-dark" sub="-subtle">
                         <div className="card-text" id="Second Page">
-                            <div className="profile-bg">
-                                <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" />
-                            </div>
+                            <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" />
                         </div>
                     </Content>
                 </div>
@@ -61,59 +59,6 @@ const Pages = () => {
 
             <div id="Projects">
                 <p className="card-title">PROJECTS</p>
-                <div className="project-container">
-                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" />
-                    </Content>
-                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Rest Hotel</p>
-                        <p className="project-info">
-                            Rest Hotel serves as an online booking platform that facilitates
-                            users in selecting and reserving accommodations suitable for both leisure and business purposes.
-                            The website provides a seamless experience for room selection and efficient booking processes,
-                            including verification procedures to confirm reservations.
-                        </p>
-                        <div className="project-language">
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <p>PHP</p>
-                        </div>
-                        <div className="project-links">
-                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
-                                window.open("https://github.com/darrellabuguen/resthotel.git")
-                            }} />
-                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
-                                window.open("https://resthotel.000webhostapp.com/");
-                            }} />
-                        </div>
-                    </Content>
-                </div>
-                <div className="project-container rev">
-                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Recipe Realm</p>
-                        <p className="project-info">
-                            Recipe realm is a simple recipe app that allows users to search for recipes,
-                            users can choose recipe information from six different categories. This app
-                            provides an interface for searching a variety of foods from over 5000+ recipes.
-                        </p>
-                        <div className="project-language">
-                            <p>React</p>
-                            <p>CSS</p>
-                        </div>
-                        <div className="project-links">
-                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
-                                window.open("https://github.com/darrellabuguen/food-recipe.git");
-                            }} />
-                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
-                                window.open("https://recipe-realm.netlify.app/");
-                            }} />
-                        </div>
-                    </Content>
-                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/reciperealm-home.png" alt="img" />
-                    </Content>
-                </div>
                 <div className="project-container">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
                         <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
@@ -163,6 +108,59 @@ const Pages = () => {
                     </Content>
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
                         <img className="project-pic" src="./src/images/movierepo-home.jpg" alt="img" />
+                    </Content>
+                </div>
+                <div className="project-container">
+                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
+                        <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" />
+                    </Content>
+                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
+                        <p className="project-title">Rest Hotel</p>
+                        <p className="project-info">
+                            Rest Hotel serves as an online booking platform that facilitates
+                            users in selecting and reserving accommodations suitable for both leisure and business purposes.
+                            The website provides a seamless experience for room selection and efficient booking processes,
+                            including verification procedures to confirm reservations.
+                        </p>
+                        <div className="project-language">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>PHP</p>
+                        </div>
+                        <div className="project-links">
+                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
+                                window.open("https://github.com/darrellabuguen/resthotel.git")
+                            }} />
+                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
+                                window.open("https://resthotel.000webhostapp.com/");
+                            }} />
+                        </div>
+                    </Content>
+                </div>
+                <div className="project-container rev">
+                    <Content clsname="second-card project" background="bg-dark" sub="-subtle">
+                        <p className="project-title">Recipe Realm</p>
+                        <p className="project-info">
+                            Recipe realm is a simple recipe app that allows users to search for recipes,
+                            users can choose recipe information from six different categories. This app
+                            provides an interface for searching a variety of foods from over 5000+ recipes.
+                        </p>
+                        <div className="project-language">
+                            <p>React</p>
+                            <p>CSS</p>
+                        </div>
+                        <div className="project-links">
+                            <Button btnclass="github" name="Code" icon="./src/images/github.svg" onclick={() => {
+                                window.open("https://github.com/darrellabuguen/recipe-realm");
+                            }} />
+                            <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
+                                window.open("https://recipe-realm.netlify.app/");
+                            }} />
+                        </div>
+                    </Content>
+                    <Content clsname="first-card project" background="bg-dark" sub="-subtle">
+                        <img className="project-pic" src="./src/images/reciperealm-home.jpg" alt="img" />
                     </Content>
                 </div>
                 <span className="back-top" onClick={() => window.scrollTo(0, 0)}>&uarr;</span>
