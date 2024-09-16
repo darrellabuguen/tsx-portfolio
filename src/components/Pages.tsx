@@ -133,7 +133,7 @@ const Pages = () => {
                                 window.open("https://github.com/darrellabuguen/resthotel.git")
                             }} />
                             <Button btnclass="link" name="Link" icon="./src/images/arrow-up-right-from-square-solid.svg" onclick={() => {
-                                window.open("http://rest-hotel.infinityfreeapp.com/");
+                                window.open("https://rest-hotel.infinityfreeapp.com/");
                             }} />
                         </div>
                     </Content>
