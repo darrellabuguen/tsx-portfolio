@@ -166,10 +166,6 @@ const Pages = () => {
                 <span className="back-top" onClick={() => window.scrollTo(0, 0)}>&uarr;</span>
             </div>
             <span id="Resume"></span>
-            <br />
-            <br />
-            <br />
-            <br />
             <span className="resume-title"><p className="card-title">RESUME</p></span>
             <div className="resume-container">
                 <Content clsname="first-card resume" background="bg-dark" sub="-subtle">

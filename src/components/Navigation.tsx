@@ -48,8 +48,15 @@ const Navigation = ({ page, page_class }: Props) => {
                                     page_class
                                 }
                             >
-                                <a href={`#${page}`}
+                                <a
                                     key={page}
+                                    onClick={() => {
+                                        let con = document.querySelector(`#${page}`) as HTMLElement | null;
+                                        if (con) {
+                                            window.location.href = `#${page}`;
+                                            window.scrollTo(con.offsetLeft, con.offsetTop - 95);
+                                        }
+                                    }}
                                 >
                                     {page}
                                 </a>
@@ -65,8 +72,15 @@ const Navigation = ({ page, page_class }: Props) => {
                             page_class
                         }
                     >
-                        <a href={`#${page}`}
+                        <a
                             key={page}
+                            onClick={() => {
+                                let con = document.querySelector(`#${page}`) as HTMLElement | null;
+                                if (con) {
+                                    window.location.href = `#${page}`;
+                                    window.scrollTo(con.offsetLeft, con.offsetTop - 95);
+                                }
+                            }}
                         >
                             {page}
                         </a>
