@@ -190,7 +190,7 @@ const Pages = () => {
                             </div>
                             <div className="data-info">
                                 <p>July 20, 2000</p>
-                                <p>22 years old</p>
+                                <p>24 years old</p>
                                 <p>Male</p>
                                 <p>Single</p>
                                 <p>Filipino</p>
@@ -237,8 +237,8 @@ const Pages = () => {
                     <div className="indent" style={{ width: "95%" }}>
                         <p style={{ textAlign: "justify" }}>
                             To land a software development or tech support job where I can leverage my
-                            web development and troubleshooting skills to contribute effectively, drawing
-                            upon my technical skills, and drive success in a dynamic work environment.
+                            web development and troubleshooting skills to contribute to company’s success
+                            and growth.
                         </p>
                     </div>
                     <br />
