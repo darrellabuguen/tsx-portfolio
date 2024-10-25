@@ -383,7 +383,7 @@
     }
 
     .intro-container {
-        height: 91svh;
+        height: auto;
     }
 }
 
