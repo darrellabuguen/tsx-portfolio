@@ -44,6 +44,7 @@ a {
 .mblink-container.animate {
   animation: animates 0.4s ease-in-out;
   display: block;
+  z-index: 4;
 }
 
 .mblink-container.re-animate {
@@ -89,6 +90,7 @@ a {
   background-color: #04143F;
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 .mobile-menu {
@@ -570,4 +572,18 @@ footer {
 
 svg.res-icon {
   width: 25px;
+}
+
+.hidden {
+  transform: translateX(-3rem);
+  opacity: 0;
+  filter: blur(10px);
+  transition: transform 0.5s ease, opacity 0.5s ease, filter 0.5s ease;
+}
+
+.fade-in {
+  transform: translateX(0rem);
+  opacity: 1;
+  filter: blur(0px);
+  transition: transform 0.5s ease, opacity 0.5s ease, filter 0.5s ease;
 }

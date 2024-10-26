@@ -59,7 +59,7 @@ const Pages = () => {
 
             <div id="Projects">
                 <p className="card-title">PROJECTS</p>
-                <div className="project-container">
+                <div className="project-container hidden">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
                         <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
                     </Content>
@@ -86,7 +86,7 @@ const Pages = () => {
                         </div>
                     </Content>
                 </div>
-                <div className="project-container rev">
+                <div className="project-container  hidden rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
                         <p className="project-title">Movie Repo</p>
                         <p className="project-info">
@@ -110,7 +110,7 @@ const Pages = () => {
                         <img className="project-pic" src="./src/images/movierepo-home.jpg" alt="img" />
                     </Content>
                 </div>
-                <div className="project-container">
+                <div className="project-container  hidden">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
                         <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" />
                     </Content>
@@ -138,7 +138,7 @@ const Pages = () => {
                         </div>
                     </Content>
                 </div>
-                <div className="project-container rev">
+                <div className="project-container  hidden rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
                         <p className="project-title">Recipe Realm</p>
                         <p className="project-info">
