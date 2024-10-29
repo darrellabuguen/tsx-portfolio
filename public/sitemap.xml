@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://portfolio-tsx.netlify.app/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-tsx.netlify.app/#About</loc> <!-- Anchor to the 'About' section -->
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-tsx.netlify.app/#Projects</loc> <!-- Anchor to the 'Projects' section -->
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-tsx.netlify.app/#Resume</loc> <!-- Anchor to the 'Resume' section -->
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
