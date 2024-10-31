@@ -117,6 +117,11 @@ li a {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.intro h1 {
+  font-size: inherit;
+  display: inline;
+}
+
 .card-container {
   max-width: 1252px;
   margin: auto;

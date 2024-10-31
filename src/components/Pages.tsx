@@ -9,7 +9,7 @@ const Pages = () => {
                     <Content clsname="first-card firstro" background="bg-dark" sub="-subtle">
                         <div>
                             <p className="card-text">I'm a Website Developer!</p>
-                            <p className="intro">Hi, I am Darrel Labuguen. A passionate Web Developer with strong knowledge in creating and developing websites.</p>
+                            <p className="intro">Hi, I am <h1>Darrel Labuguen</h1>. A passionate Web Developer with strong knowledge in creating and developing websites.</p>
                             <p className="find-contact">Find Me on</p>
                             <div className="contact-container">
                                 <a href="https://www.linkedin.com/in/darrel-labuguen-02924b280">
@@ -46,7 +46,7 @@ const Pages = () => {
                     <img className="about-pic" src="./src/images/ccsn.jpg" alt="img" loading="lazy" />
                 </Content>
                 <Content clsname="second-card about" background="bg-dark" sub="-subtle">
-                    <h1 className="card-title">ABOUT ME</h1>
+                    <h2 className="card-title">ABOUT ME</h2>
                     <p className="about-locate">A passionate Web Developer from Tiaong, Quezon</p>
                     <p className="about-me">
                         I’m Darrel Labuguen, I am a fresh graduate from Laguna State
