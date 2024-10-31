@@ -8,8 +8,8 @@ const Pages = () => {
                 <div className="card-container" id="Home">
                     <Content clsname="first-card firstro" background="bg-dark" sub="-subtle">
                         <div>
-                            <p className="card-text">I'm a Website Developer!</p>
-                            <p className="intro">Hi, I am <h1>Darrel Labuguen</h1>. A passionate Web Developer with strong knowledge in creating and developing websites.</p>
+                            <h1 className="card-text">I'm a Website Developer!</h1>
+                            <p className="intro">Hi, I am Darrel Labuguen. A passionate Web Developer with strong knowledge in creating and developing websites.</p>
                             <p className="find-contact">Find Me on</p>
                             <div className="contact-container">
                                 <a href="https://www.linkedin.com/in/darrel-labuguen-02924b280">
