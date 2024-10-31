@@ -13,40 +13,40 @@ const Pages = () => {
                             <p className="find-contact">Find Me on</p>
                             <div className="contact-container">
                                 <a href="https://www.linkedin.com/in/darrel-labuguen-02924b280">
-                                    <img src="./src/images/linkedin.svg" alt="img" className="iconn contact" />
+                                    <img src="./src/images/linkedin.svg" alt="img" className="iconn contact" loading="lazy" />
                                 </a>
                                 <a href="https://www.instagram.com/darrel_labuguen/">
-                                    <img src="./src/images/instagram.svg" alt="img" className="iconn contact" />
+                                    <img src="./src/images/instagram.svg" alt="img" className="iconn contact" loading="lazy" />
                                 </a>
                                 <a href="https://www.facebook.com/darrel.labuguen.9">
-                                    <img src="./src/images/facebook.svg" alt="img" className="iconn contact" />
+                                    <img src="./src/images/facebook.svg" alt="img" className="iconn contact" loading="lazy" />
                                 </a>
                                 <a href="https://discord.gg/9R8xuAMq">
-                                    <img src="./src/images/discord.svg" alt="img" className="iconn contact" />
+                                    <img src="./src/images/discord.svg" alt="img" className="iconn contact" loading="lazy" />
                                 </a>
                             </div>
                             <div className="tech-container">
                                 <p className="techs">Tech Stack |</p>
-                                <img src="./src/images/html5.svg" alt="img" className="iconn" />
-                                <img src="./src/images/css3-alt.svg" alt="img" className="iconn" />
-                                <img src="./src/images/square-js.svg" alt="img" className="iconn" />
-                                <img src="./src/images/php.svg" alt="img" className="iconn php" />
+                                <img src="./src/images/html5.svg" alt="img" className="iconn" loading="lazy" />
+                                <img src="./src/images/css3-alt.svg" alt="img" className="iconn" loading="lazy" />
+                                <img src="./src/images/square-js.svg" alt="img" className="iconn" loading="lazy" />
+                                <img src="./src/images/php.svg" alt="img" className="iconn php" loading="lazy" />
                             </div>
                         </div>
                     </Content>
                     <Content clsname="second-card sectro" background="bg-dark" sub="-subtle">
                         <div className="card-text" id="Second Page">
-                            <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" />
+                            <img src="./src/images/Darrel Labuguen-min.jpg" alt="img" className="profile" loading="lazy" />
                         </div>
                     </Content>
                 </div>
             </div>
             <div id="About">
                 <Content clsname="first-card about" background="bg-dark" sub="-subtle">
-                    <img className="about-pic" src="./src/images/ccsn.jpg" alt="img" />
+                    <img className="about-pic" src="./src/images/ccsn.jpg" alt="img" loading="lazy" />
                 </Content>
                 <Content clsname="second-card about" background="bg-dark" sub="-subtle">
-                    <p className="card-title">ABOUT ME</p>
+                    <h1 className="card-title">ABOUT ME</h1>
                     <p className="about-locate">A passionate Web Developer from Tiaong, Quezon</p>
                     <p className="about-me">
                         I’m Darrel Labuguen, I am a fresh graduate from Laguna State
@@ -58,13 +58,13 @@ const Pages = () => {
             </div>
 
             <div id="Projects">
-                <p className="card-title">PROJECTS</p>
+                <h1 className="card-title">PROJECTS</h1>
                 <div className="project-container hidden">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/Home.PNG" alt="img" />
+                        <img className="project-pic" src="./src/images/Home.PNG" alt="img" loading="lazy" />
                     </Content>
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">ExTracker</p>
+                        <h2 className="project-title">ExTracker</h2>
                         <p className="project-info">
                             ExTracker is a web application that allows users to keep track of their
                             product's availability. The web application has different features such as adding,
@@ -88,7 +88,7 @@ const Pages = () => {
                 </div>
                 <div className="project-container  hidden rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Movie Repo</p>
+                        <h2 className="project-title">Movie Repo</h2>
                         <p className="project-info">
                             Movie Repo is a website where people can read informations about movies.
                             The website provide information about upcoming, trending, popular movies, etc.
@@ -107,15 +107,15 @@ const Pages = () => {
                         </div>
                     </Content>
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/movierepo-home.jpg" alt="img" />
+                        <img className="project-pic" src="./src/images/movierepo-home.jpg" alt="img" loading="lazy" />
                     </Content>
                 </div>
                 <div className="project-container  hidden">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" />
+                        <img className="project-pic" src="./src/images/resthotel_home.png" alt="img" loading="lazy" />
                     </Content>
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Rest Hotel</p>
+                        <h2 className="project-title">Rest Hotel</h2>
                         <p className="project-info">
                             Rest Hotel serves as an online booking platform that facilitates
                             users in selecting and reserving accommodations suitable for both leisure and business purposes.
@@ -140,7 +140,7 @@ const Pages = () => {
                 </div>
                 <div className="project-container  hidden rev">
                     <Content clsname="second-card project" background="bg-dark" sub="-subtle">
-                        <p className="project-title">Recipe Realm</p>
+                        <h2 className="project-title">Recipe Realm</h2>
                         <p className="project-info">
                             Recipe realm is a simple recipe app that allows users to search for recipes,
                             users can choose recipe information from six different categories. This app
@@ -160,22 +160,22 @@ const Pages = () => {
                         </div>
                     </Content>
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
-                        <img className="project-pic" src="./src/images/reciperealm-home.jpg" alt="img" />
+                        <img className="project-pic" src="./src/images/reciperealm-home.jpg" alt="img" loading="lazy" />
                     </Content>
                 </div>
                 <span className="back-top" onClick={() => window.scrollTo(0, 0)}>&uarr;</span>
             </div>
             <span id="Resume"></span>
-            <span className="resume-title"><p className="card-title">RESUME</p></span>
+            <span className="resume-title"><h1 className="card-title">RESUME</h1></span>
             <div className="resume-container">
                 <Content clsname="first-card resume" background="bg-dark" sub="-subtle">
                     <div className="info-container">
-                        <img className="resume-pic" src="./src/images/Darrel Labuguen-min.jpg" alt="img" />
+                        <img className="resume-pic" src="./src/images/Darrel Labuguen-min.jpg" alt="img" loading="lazy" />
                         <div className="infos">
-                            <p className="ress res-name">Darrel D. Labuguen</p>
-                            <p className="ress"><img className="res-icon" src="./src/images/envelope-solid.svg" alt="img" />labuguendarrel@gmail.com</p>
-                            <p className="ress"><img className="res-icon" src="./src/images/phone-solid.svg" alt="img" />09300515480</p>
-                            <p className="ress"><img className="res-icon" src="./src/images/location.svg" alt="img" />352 St. Luke Street Villa Rosario Subdivision Tiaong, Quezon</p>
+                            <h2 className="ress res-name">Darrel D. Labuguen</h2>
+                            <p className="ress"><img className="res-icon" src="./src/images/envelope-solid.svg" alt="img" loading="lazy" /><a href="mailto:labuguendarrel@gmail.com">labuguendarrel@gmail.com</a></p>
+                            <p className="ress"><img className="res-icon" src="./src/images/phone-solid.svg" alt="img" loading="lazy" /><a href="tel:09300515480">09300515480</a></p>
+                            <p className="ress"><img className="res-icon" src="./src/images/location.svg" alt="img" loading="lazy" />352 St. Luke Street Villa Rosario Subdivision Tiaong, Quezon</p>
                         </div>
                     </div>
                     <div className="res-main">
@@ -262,15 +262,15 @@ const Pages = () => {
                     <div className="indent">
                         <p className="bold">Paolo Ronniel Labrador</p>
                         <p>Trend Micro Trainer</p>
-                        <p>paoloronniel_labrador@trendmicro.com</p>
+                        <p><a href="mailto:paoloronniel_labrador@trendmicro.com">paoloronniel_labrador@trendmicro.com</a></p>
                         <p className="bold">Delon A. Ching, EdD</p>
                         <p>Director, Research and Development Services</p>
-                        <p>delon.ching@lspu.edu.ph</p>
-                        <p>09328644372</p>
+                        <p><a href="mailto:delon.ching@lspu.edu.ph">delon.ching@lspu.edu.ph</a></p>
+                        <p><a href="tel:09328644372">09328644372</a></p>
                         <p className="bold">Lemuel Condes</p>
                         <p>Recto Memorial National High School</p>
                         <p>Teacher</p>
-                        <p>09509928947</p>
+                        <p><a href="tel:09509928947">09509928947</a></p>
                     </div>
                     <br />
                 </Content>

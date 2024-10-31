@@ -327,6 +327,7 @@ li a {
   color: black;
   font-size: 1.57rem;
   font-weight: bolder;
+  font-family: 'Inter', sans-serif;
   height: 10%;
 }
 
@@ -472,6 +473,11 @@ li a {
   width: 100%;
 }
 
+.infos a {
+  color: black;
+  font-size: inherit;
+}
+
 .ress {
   display: flex;
   align-items: center;
@@ -497,6 +503,11 @@ li a {
 
 .indent {
   text-indent: 20px;
+}
+
+.indent a {
+  color: black;
+  font-size: inherit;
 }
 
 .bold {
@@ -543,6 +554,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 5%;
+}
+
+footer a {
+  font-size: inherit;
 }
 
 .footer-title {
