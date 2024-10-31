@@ -58,7 +58,7 @@ const Pages = () => {
             </div>
 
             <div id="Projects">
-                <h1 className="card-title">PROJECTS</h1>
+                <h2 className="card-title">PROJECTS</h2>
                 <div className="project-container hidden">
                     <Content clsname="first-card project" background="bg-dark" sub="-subtle">
                         <img className="project-pic" src="./src/images/Home.PNG" alt="img" loading="lazy" />
@@ -166,7 +166,7 @@ const Pages = () => {
                 <span className="back-top" onClick={() => window.scrollTo(0, 0)}>&uarr;</span>
             </div>
             <span id="Resume"></span>
-            <span className="resume-title"><h1 className="card-title">RESUME</h1></span>
+            <span className="resume-title"><h2 className="card-title">RESUME</h2></span>
             <div className="resume-container">
                 <Content clsname="first-card resume" background="bg-dark" sub="-subtle">
                     <div className="info-container">
